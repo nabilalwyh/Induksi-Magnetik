@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web Fisdas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <style>
+      p {
+        text-align: justify;
+      }
+      button {
+        margin-top: 20px;
+      }
+      #hasil {
+        margin-top: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Kelompok 7</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#pengertian"
+                  >Pengertian</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sejarah">Sejarah</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  soal
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#rumus">Rumus</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#1">Soal 1</a>
+                    <a class="dropdown-item" href="#2">Soal 2</a>
+                    <a class="dropdown-item" href="#3">Soal 3</a>
+                    <a class="dropdown-item" href="#4">Soal 4</a>
+                    <a class="dropdown-item" href="#5">Soal 5</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="btn btn-light"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Kalkulator
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container pt-5">
+      <div class="row pt-5">
+        <div class="col">
+          <figure class="text-center">
+            <blockquote class="blockquote">
+              <h3>INDUKSI MAGNETIK</h3>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Kelompok 7 | <cite title="Source Title">1IA25</cite>
+            </figcaption>
+          </figure>
+          <div class="container text-center pt-3">
+            <div class="row">
+              <div class="col-sm-3" id="pengertian">
+                <h5>Apa itu Induksi Magnetik?</h5>
+                <img src="image/image1.png" class="img-fluid" alt="..." />
+              </div>
+              <div class="col-sm-9">
+                <div class="row">
+                  <div class="col col-sm-12 pt-2">
+                    <p>
+                      Induksi magnetik adalah proses pembentukan medan magnet di
+                      sekitar benda atau kawat yang mengalami perubahan arus
+                      listrik atau medan magnet. Ketika sebuah kawat atau benda
+                      yang menghantarkan listrik ditempatkan di dekat medan
+                      magnet, perubahan dalam medan magnet ini akan menyebabkan
+                      terjadinya arus listrik dalam kawat atau benda tersebut.
+                      Proses ini dikenal sebagai induksi magnetik.
+                    </p>
+                    <p>
+                      Prinsip induksi magnetik memiliki berbagai aplikasi dalam
+                      kehidupan sehari-hari dan teknologi. Contohnya termasuk
+                      generator listrik, transformator, motor listrik, dan
+                      berbagai peralatan elektronik. Induksi magnetik juga
+                      digunakan dalam berbagai teknologi lainnya seperti pemanas
+                      induksi, kartu pintar, dan penggunaan energi nuklir.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-5">
+            <div class="row">
+              <div class="col-sm-3" id="sejarah">
+                <h5 class="text-center">
+                  Bagaimana Induksi Magnetik dapat ditemukan?
+                </h5>
+                <img src="image/image2.png" class="img-fluid" alt="..." />
+              </div>
+              <div class="col-sm-9">
+                <div class="row">
+                  <div class="col col-sm-12 pt-2">
+                    <p>
+                      Induksi Magnet ditemukan oleh Michael Faraday pada tahun
+                      1821. Dua tahun sebelumnya Oersted, telah menemukan bahwa
+                      jarum magnet kompas biasa dapat beringsut, jika arus
+                      listrik dialirkan dalam kawat yang tidak berjauhan. Hal
+                      tersebut membuat Michael Faraday berpendapat bahwa jika
+                      magnet diketatkan, yang bergerak justru kawatnya. Atas
+                      dasar dugaan ini, dia berhasil membuat suatu skema yang
+                      jelas dimana kawat akan terus-menerus berputar berdekatan
+                      dengan magnet sepanjang arus listrik dialirkan ke kawat
+                    </p>
+                    <p>
+                      Secara teoretis Laplace (1749 – 1827) menyatakan bahwa
+                      kuat medan magnet atau induksi magnet di sekitar arus
+                      listrik sebagai berikut:
+                    </p>
+                    <ol>
+                      <li>Berbanding lurus dengan arus listrik</li>
+                      <li>Berbanding lurus dengan panjang kawat penghantar</li>
+                      <li>
+                        Berbanding terbalik dengan kuadrat jarak suatu titik
+                        dari kawat penghantar itu
+                      </li>
+                      <li>
+                        Arah induksi magnet tersebut tegak lurus dengan bidang
+                        yang dilalui arus listrik
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container text-center pt-5">
+            <div class="row">
+              <div class="col" id="rumus">
+                <h5>Bagaimana Rumus Untuk Mencari Induksi Magnetik?</h5>
+                <img src="image/image6.png" class="img-fluid" alt="..." />
+              </div>
+            </div>
+          </div>
+          <div class="container pt-5">
+            <div class="row">
+              <div class="col-sm-3" id="1">
+                <h5 class="text-center">Contoh Soal 1</h5>
+                <img src="image/image3.png" class="img-fluid" alt="..." />
+              </div>
+              <div class="col-sm-9">
+                <div class="row">
+                  <div class="col col-sm-12 pt-2">
+                    <p>
+                      Suatu solenoida terdiri dari 500 lilitan berarus 2,5 A.
+                      panjang solenoida 50 cm. Tentukanlah induksi magnet di
+                      tengah-tengah solenoida
+                    </p>
+                    <p>Diketahui :</p>
+                    <ul>
+                      <li>Banyak lilitan (N) = 500 lilitan</li>
+                      <li>Panjang solenoida (L) = 50 cm = 0,5 m</li>
+                      <li>Arus listrik (I) =2,5 A</li>
+                    </ul>
+                    <p>
+                      Ditanya : Induksi magnet di tengah-tengah solenoida
+                      (pusat)<br />Jawab :
+                    </p>
+                    <p>
+                      B = μ₀IN / l<br />
+                      B = 4π×10⁻⁷ × 2,5 × 500 / 0,5<br />
+                      B = 4π×10⁻⁷ × 2.500<br />
+                      B = 10.000 π×10⁻⁷<br />
+                      B = π×10⁻³ Tesla<br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-5">
+            <div class="row">
+              <div class="col-sm-3" id="2">
+                <h5 class="text-center">Contoh Soal 2</h5>
+                <img src="image/image4.jpg" class="img-fluid" alt="..." />
+              </div>
+              <div class="col-sm-9">
+                <div class="row">
+                  <div class="col col-sm-12 pt-2">
+                    <p>
+                      Sebuah toroida memiliki 60 lilitan dan berjari-jari 10 cm
+                      dialiri kuat arus listrik sebesar 2 a induksi magnetik di
+                      dalam toroida tersebut adalah
+                    </p>
+                    <p>Diketahui :</p>
+                    <ul>
+                      <li>N = 60 lilitan</li>
+                      <li>μ₀ = 4π × 10⁻⁷ Wb/m²</li>
+                      <li>I = 2 A</li>
+                      <li>a = 10 cm = 0,1 m</li>
+                    </ul>
+                    <p>Ditanya : B?<br />Jawab :</p>
+                    <p>
+                      B = N.μ₀.I / 2.π.a<br />
+                      B = (60 . 4π × 10⁻⁷ . 2) / 2π . 0,1<br />
+                      B = 2,4 × 10^-4 T<br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-5">
+            <div class="row">
+              <div class="col-sm-3" id="3">
+                <h5 class="text-center">Contoh Soal 3</h5>
+                <img src="image/image1.png" class="img-fluid" alt="..." />
+              </div>
+              <div class="col-sm-9">
+                <div class="row">
+                  <div class="col col-sm-12 pt-2">
+                    <p>
+                      Tentukan besar nya induksi magnetik di suatu titik yang
+                      berjarak 25 cm dari kawat lurus panjang dan dialiri arus
+                      listrik 10 A
+                    </p>
+                    <p>Diketahui :</p>
+                    <ul>
+                      <li>
+                        Jarak titik uji ke kawat lurus berarus (a) = 25 cm =
+                        25×10⁻² m
+                      </li>
+                      <li>Kuat arus listrik (I) = 10 A</li>
+                    </ul>
+                    <p>Ditanya : B?<br />Jawab :</p>
+                    <p>
+                      B = μ₀I / 4πa<br />
+                      B = (4π×10⁻⁷)(10) / 2π(25×10⁻²)<br />
+                      B = 2π x 10⁻⁶ / (25×10⁻²)<br />
+                      B = 0,08 × 10⁻⁶⁻⁽⁻²⁾<br />
+                      B = 0,08 × 10⁻⁴<br />
+                      B = 8 × 10⁻⁶ Tesla<br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-5">
+            <div class="row">
+              <div class="col-sm-3" id="4">
+                <h5 class="text-center">Contoh Soal 4</h5>
+                <img src="image/image4.png" class="img-fluid" alt="..." />
+              </div>
+              <div class="col-sm-9">
+                <div class="row">
+                  <div class="col col-sm-12 pt-2">
+                    <p>
+                      Sebuah kawat melingkar dengan jari-jari 10 cm dialiri arus
+                      4 A dengan banyaknya lilitan kawat 10 lilitan. Berapakah
+                      besar medan magnet pada kawat tersebut? (μ0= 4π x 10 ⁻⁷
+                      Wb/Am)
+                    </p>
+                    <p>Diketahui :</p>
+                    <ul>
+                      <li>r = 10 cm = 0,1 m</li>
+                      <li>Kuat arus listrik (I) = 4 A</li>
+                      <li>Jumlah lilitan (N) = 10 Lilitan</li>
+                      <li>μ0 = 4π x 10⁻⁷ Wb/Am</li>
+                    </ul>
+                    <p>Ditanya : B?<br />Jawab :</p>
+                    <p>
+                      B = μ0IN/2r<br />
+                      B = (4π×10⁻⁷)(4)(10) / 2×0,1<br />
+                      B = 8π×10⁻⁵<br />
+                      B = 8 x 3,14 x 10⁻⁵<br />
+                      B = 2,5 x 10⁻⁴ Wb/m²<br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-5">
+            <div class="row">
+              <div class="col-sm-3" id="5">
+                <h5 class="text-center">Contoh Soal 5</h5>
+                <img src="image/image5.png" class="img-fluid" alt="..." />
+              </div>
+              <div class="col-sm-9">
+                <div class="row">
+                  <div class="col col-sm-12 pt-2">
+                    <p>
+                      Sebuah kawat dibentuk menjadi lingkaran berdiamater 12 cm,
+                      kemudian diberi arus 2 A. Berapakah besar induksi magnet
+                      pada titik sumbu lingkaran yang berada pada jarak 8 cm
+                      dari pusat (nyatakan dalam permeabilitas magnetik)!
+                    </p>
+                    <p>Diketahui :</p>
+                    <ul>
+                      <li>r = 6 cm</li>
+                      <li>Kuat arus listrik (I) = 2 A</li>
+                      <li>Jarak (s)= 8 cm</li>
+                      <li>sin x = 6/10</li>
+                    </ul>
+                    <p>Ditanya : B?<br />Jawab :</p>
+                    <p>
+                      a =√r²+s²<br />
+                      a =√6²+8²<br />
+                      a =√36+64<br />
+                      a =√100 cm<br />
+                      a = 10.10⁻²<br />
+                      B = (μ0 x I / 2a) sin²ϴ<br />
+                      B = (4π×10⁻⁷ x 2/2×10.10⁻²) (6/10)²<br />
+                      B = (4 x 3,14 × 10⁻⁷ x 2/2 × 6.10⁻²) (6/10)²<br />
+                      B = 4,5 x 10⁻⁶ Tesla<br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Kalkulator
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <section id="kalkulator">
+                <h5 class="text-center">Program Menghitung Induksi Magnetik</h5>
+
+                <h6>Pilihan:</h6>
+                <select
+                  id="pilihan"
+                  class="form-control"
+                  onchange="triggerAccordion(this.value)"
+                >
+                  <option value="1">
+                    1. Menghitung induksi magnetik di pusat solenoida
+                  </option>
+                  <option value="2">
+                    2. Menghitung induksi magnetik di dalam toroida
+                  </option>
+                  <option value="3">
+                    3. Menghitung induksi magnetik di kawat lurus
+                  </option>
+                  <option value="4">
+                    4. Menghitung induksi magnetik di kawat melingkar
+                  </option>
+                  <option value="5">
+                    5. Menghitung induksi magnetik di titik sumbu lingkaran
+                  </option>
+                </select>
+                <br />
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                        id="test1"
+                      >
+                        Menghitung induksi magnetik di pusat solenoida
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <div id="input1">
+                          <h2>
+                            Menghitung induksi magnetik di pusat solenoida:
+                          </h2>
+                          <label for="arus1"
+                            >Masukkan nilai arus listrik (dalam satuan
+                            Ampere):</label
+                          >
+                          <input type="text" id="arus1" class="form-control" />
+                          <label for="panjang1"
+                            >Masukkan panjang solenoida (dalam meter):</label
+                          >
+                          <input
+                            type="text"
+                            id="panjang1"
+                            class="form-control"
+                          />
+                          <label for="lilitan1"
+                            >Masukkan jumlah lilitan kawat:</label
+                          >
+                          <input
+                            type="text"
+                            id="lilitan1"
+                            class="form-control"
+                          />
+                          <button
+                            onclick="calculateInduksiMagnetik(1)"
+                            class="btn btn-primary"
+                          >
+                            Hitung
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                        id="test2"
+                      >
+                        Menghitung induksi magnetik di dalam toroida
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <div id="input2">
+                          <h2>Menghitung induksi magnetik di dalam toroida:</h2>
+                          <label for="arus2"
+                            >Masukkan nilai arus listrik (dalam satuan
+                            Ampere):</label
+                          >
+                          <input type="text" id="arus2" class="form-control" />
+                          <label for="jari2"
+                            >Masukkan jari-jari toroida (dalam meter):</label
+                          >
+                          <input type="text" id="jari2" class="form-control" />
+                          <label for="lilitan2"
+                            >Masukkan jumlah lilitan kawat:</label
+                          >
+                          <input
+                            type="text"
+                            id="lilitan2"
+                            class="form-control"
+                          />
+                          <button
+                            onclick="calculateInduksiMagnetik(2)"
+                            class="btn btn-primary"
+                          >
+                            Hitung
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                        id="test3"
+                      >
+                        Menghitung induksi magnetik di kawat lurus
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <div id="input3">
+                          <h2>
+                            Menghitung induksi magnetik di pusat kawat lurus:
+                          </h2>
+                          <label for="arus3"
+                            >Masukkan nilai arus listrik (dalam satuan
+                            Ampere):</label
+                          >
+                          <input type="text" id="arus3" class="form-control" />
+                          <label for="jarak3"
+                            >Masukkan jarak darititik ke kawat (dalam
+                            meter):</label
+                          >
+                          <input type="text" id="jarak3" class="form-control" />
+                          <button
+                            onclick="calculateInduksiMagnetik(3)"
+                            class="btn btn-primary"
+                          >
+                            Hitung
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour"
+                        aria-expanded="false"
+                        aria-controls="collapseFour"
+                        id="test4"
+                      >
+                        Menghitung induksi magnetik di kawat melingkar
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFour"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingFour"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <div id="input4">
+                          <h2>
+                            Menghitung induksi magnetik di pusat kawat
+                            melingkar:
+                          </h2>
+                          <label for="arus4"
+                            >Masukkan nilai arus listrik (dalam satuan
+                            Ampere):</label
+                          >
+                          <input type="text" id="arus4" class="form-control" />
+                          <label for="jari4"
+                            >Masukkan panjang jari-jari lingkaran kawat (dalam
+                            meter):</label
+                          >
+                          <input type="text" id="jari4" class="form-control" />
+                          <label for="lilitan4"
+                            >Masukkan jumlah lilitan kawat:</label
+                          >
+                          <input
+                            type="text"
+                            id="lilitan4"
+                            class="form-control"
+                          />
+                        </div>
+                        <button
+                          onclick="calculateInduksiMagnetik(4)"
+                          class="btn btn-primary"
+                        >
+                          Hitung
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive"
+                        aria-expanded="false"
+                        aria-controls="collapseFive"
+                        id="test5"
+                      >
+                        Menghitung induksi magnetik di titik sumbu lingkaran
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFive"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingFive"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <div id="input5">
+                          <h2>
+                            Menghitung induksi magnetik di titik sumbu
+                            lingkaran:
+                          </h2>
+                          <label for="arus5"
+                            >Masukkan nilai arus listrik (dalam satuan
+                            Ampere):</label
+                          >
+                          <input type="text" id="arus5" class="form-control" />
+                          <label for="diameter5"
+                            >Masukkan jari jari lingkaran kawat (dalam
+                            meter):</label
+                          >
+                          <input
+                            type="text"
+                            id="jarijari5"
+                            class="form-control"
+                          />
+                          <label for="jarak5"
+                            >Masukkan jarak induksi magnet dari pusat (dalam
+                            meter):</label
+                          >
+                          <input type="text" id="jarak5" class="form-control" />
+                        </div>
+                        <button
+                          onclick="calculateInduksiMagnetik(5)"
+                          class="btn btn-primary"
+                        >
+                          Hitung
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h2>Hasil:</h2>
+                <div id="hasil" class="alert"></div>
+              </section>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function calculateInduksiMagnetik() {
+        var choice = parseInt(document.getElementById("pilihan").value);
+
+        if (choice === 1) {
+          var I = parseFloat(document.getElementById("arus1").value);
+          var l = parseFloat(document.getElementById("panjang1").value);
+          var N = parseInt(document.getElementById("lilitan1").value);
+
+          var u0 = 4 * Math.PI * Math.pow(10, -7);
+          var B_pusatSolenoida = (u0 * I * N) / l;
+          var hasil = B_pusatSolenoida.toExponential(2);
+
+          document.getElementById("hasil").innerHTML =
+            "Nilai Induksi magnetik (B) di Sekitar Kawat Lurus, dengan kuat arus " +
+            I +
+            " A, jumlah lilitan kawat sebanyak " +
+            N +
+            " lilitan, dan memiliki panjang solenoida " +
+            l +
+            " m, adalah: " +
+            hasil +
+            " Tesla";
+          document.getElementById("hasil").classList.add("alert-success");
+        } else if (choice === 2) {
+          var I = parseFloat(document.getElementById("arus2").value);
+          var a = parseFloat(document.getElementById("jari2").value);
+          var N = parseInt(document.getElementById("lilitan2").value);
+
+          var u0 = 4 * Math.PI * Math.pow(10, -7);
+          var B_dalamToroida = (u0 * I * N) / (2 * Math.PI * a);
+          var hasil = B_dalamToroida.toExponential(1);
+
+          document.getElementById("hasil").innerHTML =
+            "Nilai Induksi magnetik (B) di Dalam Toroida, dengan kuat arus " +
+            I +
+            " A, jumlah lilitan kawat sebanyak " +
+            N +
+            ", dan jari-jari toroida " +
+            a +
+            " m, adalah: " +
+            hasil +
+            " Tesla";
+          document.getElementById("hasil").classList.add("alert-success");
+        } else if (choice === 3) {
+          var I = parseFloat(document.getElementById("arus3").value);
+          var a = parseFloat(document.getElementById("jarak3").value);
+
+          var u0 = 4 * Math.PI * Math.pow(10, -7);
+          var B_kawatLurus = (u0 * I) / (2 * Math.PI * a);
+          var hasil = B_kawatLurus.toExponential(1);
+
+          document.getElementById("hasil").innerHTML =
+            "Nilai Induksi magnetik (B) di Sekitar Kawat Lurus, dengan kuat arus " +
+            I +
+            " A, dan memiliki jarak antara titik pusat ke kawat " +
+            a +
+            " m, adalah: " +
+            hasil +
+            " Tesla";
+
+          document.getElementById("hasil").classList.add("alert-success");
+        } else if (choice === 4) {
+          var I = parseFloat(document.getElementById("arus4").value);
+          var r = parseFloat(document.getElementById("jari4").value);
+          var N = parseInt(document.getElementById("lilitan4").value);
+
+          var u0 = 4 * Math.PI * Math.pow(10, -7);
+          var B_kawatMelingkar = (u0 * I * N) / (2 * r);
+          var hasil = B_kawatMelingkar.toExponential(1);
+
+          document.getElementById("hasil").innerHTML =
+            "Nilai Induksi magnetik (B) di Kawat Melingkar, dengan kuat arus " +
+            I +
+            " A, jumlah lilitan kawat sebanyak " +
+            N +
+            " dan memiliki jarak antara titik pusat ke kawat " +
+            r +
+            " m, adalah: " +
+            hasil +
+            " Tesla";
+          document.getElementById("hasil").classList.add("alert-success");
+        } else if (choice === 5) {
+          var I = parseFloat(document.getElementById("arus5").value);
+          var r = parseFloat(document.getElementById("jarijari5").value);
+          var s = parseFloat(document.getElementById("jarak5").value);
+          var z = Math.sqrt(Math.pow(r, 2) + Math.pow(s, 2));
+          var x = r / z;
+
+          var u0 = 4 * Math.PI * Math.pow(10, -7);
+          var B_titikSumbu = ((u0 * I) / (2 * z)) * Math.pow(x, 2);
+          var hasil = B_titikSumbu.toExponential(1);
+
+          document.getElementById("hasil").innerHTML =
+            "Nilai Induksi magnetik (B) di Titik Sumbu Lingkaran, dengan kuat arus " +
+            I +
+            " A, memiliki jari-jari " +
+            r +
+            " m, dan memiliki jarak antara titik pusat ke induksi magnetik " +
+            s +
+            " m, adalah: " +
+            hasil +
+            " Tesla";
+          document.getElementById("hasil").classList.add("alert-success");
+        }
+      }
+    </script>
+  </body>
+</html>
